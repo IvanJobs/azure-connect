@@ -18,6 +18,7 @@ from ._mysql import mysql_handler
 from ._spring_cloud import spring_cloud_handler
 import subprocess
 from getpass import getpass
+import sys
 
 logger = get_logger(__name__)
 
