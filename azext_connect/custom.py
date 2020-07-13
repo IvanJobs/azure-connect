@@ -447,6 +447,7 @@ def bind_webapp(
     except Exception as e:
         print(e)
         logger.error(e)
+        sys.exit(1)
 
 
 def bind_springcloud(
