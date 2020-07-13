@@ -466,6 +466,7 @@ def bind_springcloud(
     except Exception as e:
         print(e)
         logger.error(e)
+        sys.exit(1)
 
 
 def bind_function(
@@ -485,6 +486,7 @@ def bind_function(
     except Exception as e:
         print(e)
         logger.error(e)
+        sys.exit(1)
 
 
 def validate_general(cmd, resource_group, name):
