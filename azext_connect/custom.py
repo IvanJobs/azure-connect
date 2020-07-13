@@ -504,3 +504,4 @@ def validate_general(cmd, resource_group, name):
     except Exception as e:
         print(e)
         logger.error(e)
+        sys.exit(1)
